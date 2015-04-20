@@ -1,1 +1,2 @@
 remove_npm_dependency.patch
+npm_ca_fix.patch
