@@ -8,6 +8,7 @@ if [ "$1" = "purge" ] ; then
 	if getent group etherpad-lite >/dev/null; then
 		delgroup etherpad-lite
 	fi
-fi
 
-#DEBHELPER#
+	rm -rf /var/log/etherpad-lite/
+	rm -rf /var/lib/etherpad-lite/
+fi
