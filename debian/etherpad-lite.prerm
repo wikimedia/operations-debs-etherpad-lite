@@ -1,0 +1,4 @@
+#!/bin/sh -e
+
+# Stop the daemon
+service etherpad-lite stop

@@ -20,4 +20,6 @@ if [ -d /var/lib/etherpad-lite ]; then
         chown -R etherpad-lite:etherpad-lite /var/lib/etherpad-lite
 fi
 
+service etherpad-lite start
+
 exit 0
