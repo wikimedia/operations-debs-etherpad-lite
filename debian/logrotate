@@ -1,0 +1,12 @@
+/var/log/etherpad-lite/*.log {
+	weekly
+	missingok
+	rotate 4
+	compress
+	delaycompress
+	notifempty
+	create 0640 etherpad-lite etherpad-lite
+	postrotate
+		service etherpad-lite restart
+	endscript
+}

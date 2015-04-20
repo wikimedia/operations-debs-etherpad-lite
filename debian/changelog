@@ -1,3 +1,13 @@
+etherpad-lite (1.4.0-2) precise; urgency=low
+
+  * Add upstart manifest
+  * Log by default to /var/log/
+  * Use by default /var/lib/etherpad-lite/dirty.db
+  * Add logrotate configuration
+  * Remove log and built-in database on purge
+
+ -- Alexandros Kosiaris <akosiaris@wikimedia.org>  Fri, 01 Aug 2014 16:27:20 +0000
+
 etherpad-lite (1.4.0-1) precise; urgency=low
 
   * Bump to upstream version 1.4.0

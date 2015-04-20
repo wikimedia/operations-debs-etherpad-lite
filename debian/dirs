@@ -7,3 +7,4 @@ usr/share/etherpad-lite/node_modules
 var/lib/etherpad-lite
 var/log/etherpad-lite
 etc/etherpad-lite
+etc/logrotate.d
