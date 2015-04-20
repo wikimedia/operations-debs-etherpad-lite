@@ -28,12 +28,23 @@ build-stamp: configure-stamp
 
 	# Add here commands to compile the package.
 	bin/installDeps.sh
+	echo "done" > src/.ep_initialized
 	touch $@
 
 clean: 
 	dh_testdir
 	dh_testroot
 	rm -f build-stamp configure-stamp
+	rm -rf node_modules src/node_modules/
+	rm -f settings.json \
+		src/.ep_initialized \
+	       	src/static/custom/index.css \
+		src/static/custom/index.js \
+		src/static/custom/pad.css \
+		src/static/custom/pad.js \
+		src/static/custom/timeslider.css \
+		src/static/custom/timeslider.js
+
 
 	# Add here commands to clean up after the build process.
 	rm -rf build
