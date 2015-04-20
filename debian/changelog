@@ -1,3 +1,16 @@
+etherpad-lite (1.4.1-2) precise-wikimedia; urgency=high
+
+  * Backport patches for CVE-2015-3297
+
+ -- Alexandros Kosiaris <akosiaris@wikimedia.org>  Thu, 16 Apr 2015 10:35:48 +0000
+
+etherpad-lite (1.4.1-1) sid; urgency=low
+
+  * Bump to upstream 1.4.1 
+  * systemd startup script
+
+ -- Alexandros Kosiaris <akosiaris@wikimedia.org>  Mon, 17 Nov 2014 14:10:06 +0000
+
 etherpad-lite (1.4.0-2) precise; urgency=low
 
   * Add upstart manifest
