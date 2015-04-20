@@ -1,6 +1,6 @@
 #!/bin/sh
 
-NODE_VERSION="0.5.4"
+NODE_VERSION="0.8.4"
 
 #Move to the folder where ep-lite is installed
 cd `dirname $0`
@@ -41,26 +41,23 @@ echo "do a normal unix install first..."
 bin/installDeps.sh || exit 1
 
 echo "copy the windows settings template..."
-cp settings.json.template_windows settings.json
+cp settings.json.template settings.json
 
 echo "resolve symbolic links..."
 cp -rL node_modules node_modules_resolved
 rm -rf node_modules
 mv node_modules_resolved node_modules
 
-echo "remove sqlite, cause we can't use it with windows..."
-rm -rf node_modules/ueberDB/node_modules/sqlite3
-
-echo "replace log4js with a patched log4js, this log4js runs on windows too..."
-rm -rf node_modules/log4js/* 
-wget https://github.com/Pita/log4js-node/zipball/master -O log4js.zip
-unzip log4js.zip
-mv Pita-log4js-node*/* node_modules/log4js
-rm -rf log4js.zip Pita-log4js-node*
-
 echo "download windows node..."
 cd bin
-wget "http://nodejs.org/dist/v$NODE_VERSION/node.exe" -O node.exe
+wget "http://nodejs.org/dist/v$NODE_VERSION/node.exe" -O ../node.exe
+
+echo "remove git history to reduce folder size"
+rm -rf .git/objects
+
+echo "remove windows jsdom-nocontextify/test folder"
+rm -rf /tmp/etherpad-lite-win/node_modules/ep_etherpad-lite/node_modules/jsdom-nocontextifiy/test/
+rm -rf /tmp/etherpad-lite-win/src/node_modules/jsdom-nocontextifiy/test/
 
 echo "create the zip..."
 cd /tmp
