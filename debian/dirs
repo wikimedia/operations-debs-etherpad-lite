@@ -1,7 +1,8 @@
 usr/share/etherpad-lite
 usr/share/etherpad-lite/bin
-usr/share/etherpad-lite/node
-usr/share/etherpad-lite/static
+usr/share/etherpad-lite/src
+usr/share/etherpad-lite/tests
+usr/share/etherpad-lite/tools
 usr/share/etherpad-lite/node_modules
 var/lib/etherpad-lite
 var/log/etherpad-lite
