@@ -1,0 +1,12 @@
+[Unit]
+Description=Etherpad-lite daemon
+
+[Service]
+User=etherpad-lite
+Group=etherpad-lite
+WorkingDirectory=/usr/share/etherpad-lite
+ExecStart=/usr/bin/node /usr/share/etherpad-lite/node_modules/ep_etherpad-lite/node/server.js
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
