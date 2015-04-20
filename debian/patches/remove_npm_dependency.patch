@@ -1,0 +1,12 @@
+--- a/bin/run.sh
++++ b/bin/run.sh
+@@ -21,7 +21,8 @@
+ fi
+ 
+ #prepare the enviroment
+-bin/installDeps.sh || exit 1
++#bin/installDeps.sh || exit 1
++# Commented out in etherpad-lite-1.0wm2
+ 
+ #Move to the node folder and start
+ echo "start..."
