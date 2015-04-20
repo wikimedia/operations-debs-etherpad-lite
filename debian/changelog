@@ -1,3 +1,9 @@
+etherpad-lite (1.2.11-wmf1) precise; urgency=low
+
+  * Bump to upstream version 1.2.11
+
+ -- Alexandros Kosiaris <akosiaris@wikimedia.org>  Tue, 17 Sep 2013 23:58:50 +0000
+
 etherpad-lite (1.0-wm2) lucid-wikimedia; urgency=low
 
   * Patched bin/run.sh to not run installDeps.sh, which requires npm
