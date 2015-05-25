@@ -1,3 +1,9 @@
+etherpad-lite (1.4.1-3) precise-wikimedia; urgency=medium
+
+  * Fix logrotate bug
+
+ -- Alexandros Kosiaris <alex@wikimedia.org>  Mon, 25 May 2015 21:29:59 +0300
+
 etherpad-lite (1.4.1-2) precise-wikimedia; urgency=high
 
   * Backport patches for CVE-2015-3297
