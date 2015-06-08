@@ -5,4 +5,3 @@ tests/* usr/share/etherpad-lite/tests
 tools/* usr/share/etherpad-lite/tools
 settings.json.template etc/etherpad-lite
 settings.json etc/etherpad-lite
-debian/logrotate /etc/logrotate.d/etherpad-lite
