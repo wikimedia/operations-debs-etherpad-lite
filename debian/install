@@ -2,6 +2,5 @@ bin/* usr/share/etherpad-lite/bin
 src/* usr/share/etherpad-lite/src
 src/.ep_initialized usr/share/etherpad-lite/src
 tests/* usr/share/etherpad-lite/tests
-tools/* usr/share/etherpad-lite/tools
 settings.json.template etc/etherpad-lite
 settings.json etc/etherpad-lite

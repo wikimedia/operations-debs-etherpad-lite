@@ -1,3 +1,14 @@
+etherpad-lite (1.5.0-1) jessie; urgency=low
+
+  * Bump to 1.5.0
+  * Refresh remove_npm_dependency.patch
+  * Remove npm_ca_fix.patch
+  * Depend on nodejs-legacy as well to satisfy /usr/bin/node
+  * Remove tools/* installation as it has been removed
+
+
+ -- Alexandros Kosiaris <akosiaris@wikimedia.org>  Mon, 08 Jun 2015 15:04:29 +0000
+
 etherpad-lite (1.4.1-3) precise-wikimedia; urgency=medium
 
   * Fix logrotate bug
