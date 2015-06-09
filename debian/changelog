@@ -1,3 +1,9 @@
+etherpad-lite (1.5.4-1) jessie; urgency=low
+
+  * Bump to 1.5.4
+
+ -- Alexandros Kosiaris <akosiaris@wikimedia.org>  Tue, 09 Jun 2015 07:23:37 +0000
+
 etherpad-lite (1.5.3-1) jessie; urgency=low
 
   * Bump to 1.5.3
