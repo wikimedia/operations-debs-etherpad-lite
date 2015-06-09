@@ -1,3 +1,9 @@
+etherpad-lite (1.5.6-2) jessie; urgency=medium
+
+  * Symlink SESSIONKEY.txt to /var/lib/etherpad-lite
+
+ -- Alexandros Kosiaris <alex@wikimedia.org>  Tue, 09 Jun 2015 11:49:51 +0300
+
 etherpad-lite (1.5.6-1) jessie; urgency=low
 
   * Bump to 1.5.6
