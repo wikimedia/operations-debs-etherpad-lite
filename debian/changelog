@@ -1,3 +1,10 @@
+etherpad-lite (1.5.5-1) jessie; urgency=low
+
+  * Bump to 1.5.5
+  * Remove backported CVE-2015-3297.patch
+
+ -- Alexandros Kosiaris <akosiaris@wikimedia.org>  Tue, 09 Jun 2015 07:26:28 +0000
+
 etherpad-lite (1.5.4-1) jessie; urgency=low
 
   * Bump to 1.5.4

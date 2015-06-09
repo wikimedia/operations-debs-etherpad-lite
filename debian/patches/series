@@ -1,3 +1,2 @@
 remove_npm_dependency.patch
 logging_to_file.patch
-CVE-2015-3297.patch
