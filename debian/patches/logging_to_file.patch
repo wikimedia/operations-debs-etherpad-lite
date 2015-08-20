@@ -7,7 +7,7 @@
 -                   "filename" : "var/dirty.db"
 +                   "filename" : "/var/lib/etherpad-lite/dirty.db"
                   },
-                  
+
    /* An Example of MySQL Configuration
 @@ -130,16 +130,9 @@
    // You can add as many appenders as you want here:

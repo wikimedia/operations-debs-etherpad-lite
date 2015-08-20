@@ -1,3 +1,9 @@
+etherpad-lite (1.5.7-1) UNRELEASED; urgency=medium
+
+  * Bump to 1.5.7
+
+ -- Alexandros Kosiaris <akosiaris@wikimedia.org>  Thu, 20 Aug 2015 15:20:05 +0000
+
 etherpad-lite (1.5.6-2) jessie; urgency=medium
 
   * Symlink SESSIONKEY.txt to /var/lib/etherpad-lite
