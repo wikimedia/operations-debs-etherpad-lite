@@ -1,3 +1,9 @@
+etherpad-lite (1.6.0-1) UNRELEASED; urgency=medium
+
+  * Bump to 1.6.0
+
+ -- Alexandros Kosiaris <akosiaris@wikimedia.org>  Mon, 25 Apr 2016 11:47:09 +0000
+
 etherpad-lite (1.5.7-2) jessie; urgency=medium
 
   * Patch logging to log X-Client-IP
