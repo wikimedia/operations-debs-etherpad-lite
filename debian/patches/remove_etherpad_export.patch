@@ -1,0 +1,13 @@
+diff --git a/src/node/hooks/express/importexport.js b/src/node/hooks/express/importexport.js
+index 5ebac1d..fc03d28 100644
+--- a/src/node/hooks/express/importexport.js
++++ b/src/node/hooks/express/importexport.js
+@@ -5,7 +5,7 @@ var importHandler = require('../../handler/ImportHandler');
+ 
+ exports.expressCreateServer = function (hook_name, args, cb) {
+   args.app.get('/p/:pad/:rev?/export/:type', function(req, res, next) {
+-    var types = ["pdf", "doc", "txt", "html", "odt", "etherpad"];
++    var types = ["pdf", "doc", "txt", "html", "odt"];
+     //send a 404 if we don't support this filetype
+     if (types.indexOf(req.params.type) == -1) {
+       next();
