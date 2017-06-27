@@ -1,3 +1,9 @@
+etherpad-lite (1.6.0-3) jessie; urgency=medium
+
+  * Patch etherpad export. T168485
+
+ -- Alexandros Kosiaris <akosiaris@wikimedia.org>  Tue, 27 Jun 2017 10:52:32 +0200
+
 etherpad-lite (1.6.0-2) jessie; urgency=medium
 
   * Rebuilt against node 6
