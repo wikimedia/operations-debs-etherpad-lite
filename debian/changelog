@@ -1,3 +1,9 @@
+etherpad-lite (1.6.3-1) jessie; urgency=high
+
+  * Upgrade to 1.6.3
+
+ -- Alexandros Kosiaris <akosiaris@wikimedia.org>  Fri, 09 Feb 2018 14:59:40 +0000
+
 etherpad-lite (1.6.0-3) jessie; urgency=medium
 
   * Patch etherpad export. T168485
