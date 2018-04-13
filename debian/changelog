@@ -1,3 +1,9 @@
+etherpad-lite (1.6.5-1) jessie; urgency=medium
+
+  * Bump to 1.6.5
+
+ -- Alexandros Kosiaris <akosiaris@wikimedia.org>  Fri, 13 Apr 2018 08:42:13 +0000
+
 etherpad-lite (1.6.4-1) jessie; urgency=medium
 
   * Bump to 1.6.4
