@@ -1,6 +1,13 @@
+etherpad-lite (1.6.4-1) jessie; urgency=medium
+
+  * Bump to 1.6.4
+
+ -- Alexandros Kosiaris <akosiaris@wikimedia.org>  Fri, 13 Apr 2018 08:29:41 +0000
+
 etherpad-lite (1.6.3-1) jessie; urgency=high
 
-  * Upgrade to 1.6.3
+  * Bump to 1.6.3
+  * Refresh remove_npm_dependency.patch
 
  -- Alexandros Kosiaris <akosiaris@wikimedia.org>  Fri, 09 Feb 2018 14:59:40 +0000
 
