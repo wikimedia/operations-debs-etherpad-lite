@@ -1,3 +1,10 @@
+etherpad-lite (1.6.5-2) jessie; urgency=medium
+
+  * Drop our etherpad export disabling patch
+  * Add a fix for unaligned line numbers patch
+
+ -- Alexandros Kosiaris <akosiaris@wikimedia.org>  Mon, 16 Apr 2018 08:57:08 +0000
+
 etherpad-lite (1.6.5-1) jessie; urgency=medium
 
   * Bump to 1.6.5
