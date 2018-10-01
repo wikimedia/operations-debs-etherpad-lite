@@ -1,3 +1,18 @@
+# 1.7.0
+* FIX: `getLineHTMLForExport()` no longer produces multiple copies of a line. **WARNING**: this could potentially break some plugins
+* FIX: authorship of bullet points no longer changes when a second author edits them
+* FIX: improved Firefox compatibility (non printable keys)
+* FIX: `getPadPlainText()` was not working
+* REQUIREMENTS: minimum required Node version is 6.9.0 LTS. The next release will require at least Node 8.9.0 LTS
+* SECURITY: updated MySQL, Elasticsearch and PostgreSQL drivers
+* SECURITY: started updating deprecated code and packages
+* DOCS: documented --credentials, --apikey, --sessionkey. Better detailed contributors guidelines. Added a section on securing the installation
+
+# 1.6.6
+ * FIX: line numbers are aligned with text again (broken in 1.6.4)
+ * FIX: text entered between connection loss and reconnection was not saved
+ * FIX: diagnostic call failed when etherpad was exposed in a subdirectory
+
 # 1.6.5
  * SECURITY: Escape data when listing available plugins
  * FIX: Fix typo in apicalls.js which prevented importing isValidJSONPName
@@ -6,9 +21,9 @@
  * FIX: unbreak Safari iOS line wrapping
 
 # 1.6.4
- * SECURITY: exploitable /admin access - CVE-2018-9845
- * SECURITY: DoS with pad exports - CVE-2018-9327
- * SECURITY: Remote Code Execution - CVE-2018-9326
+ * SECURITY: Access Control bypass on /admin - CVE-2018-9845
+ * SECURITY: Remote Code Execution through pad export - CVE-2018-9327
+ * SECURITY: Remote Code Execution through JSONP handling - CVE-2018-9326
  * SECURITY: Pad data leak - CVE-2018-9325
  * Fix: Admin redirect URL
  * Fix: Various script Fixes
@@ -485,7 +500,7 @@
  * Plugin-specific settings in settings.json (finally allowing for things like a google analytics plugin)
  * Serve admin dashboard at /admin (still very limited, though)
  * Modify your settings.json through the newly created UI at /admin/settings
- * Fix: Import <ol>'s  as <ol>'s and not as <ul>'s!
+ * Fix: Import `<ol>` as `<ol>` and not as `<ul>`!
  * Added solaris compatibility (bin/installDeps.sh was broken on solaris)
  * Fix a bug with IE9 and Password Protected Pads using HTTPS
 
