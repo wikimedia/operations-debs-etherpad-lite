@@ -1,3 +1,11 @@
+etherpad-lite (1.7.0-1) jessie; urgency=medium
+
+  * Bump to 1.7.0
+  * Refresh our local patches
+  * Drop fix_line_numbers_not_aligned_with_text.patch
+
+ -- Alexandros Kosiaris <akosiaris@wikimedia.org>  Mon, 01 Oct 2018 12:42:14 +0000
+
 etherpad-lite (1.6.5-2) jessie; urgency=medium
 
   * Drop our etherpad export disabling patch

@@ -1,0 +1,26 @@
+Index: etherpad-lite/bin/installDeps.sh
+===================================================================
+--- etherpad-lite.orig/bin/installDeps.sh
++++ etherpad-lite/bin/installDeps.sh
+@@ -83,8 +83,11 @@ hash npm > /dev/null 2>&1 || {
+   exit 1
+ }
+ 
++# We upgrade npm, don't ask
++npm install npm
++
+ #Check npm version
+-NPM_VERSION_STRING=$(npm --version)
++NPM_VERSION_STRING=$(node_modules/.bin/npm --version)
+ 
+ require_minimal_version "npm" "$NPM_VERSION_STRING" "$REQUIRED_NPM_MAJOR" "$REQUIRED_NPM_MINOR"
+ 
+@@ -114,7 +117,7 @@ echo "Ensure that all dependencies are u
+   cd node_modules
+   [ -e ep_etherpad-lite ] || ln -s ../src ep_etherpad-lite
+   cd ep_etherpad-lite
+-  npm install --no-save --loglevel warn
++  ../node_modules/.bin/npm install --no-save --loglevel warn
+ ) || {
+   rm -rf node_modules
+   exit 1

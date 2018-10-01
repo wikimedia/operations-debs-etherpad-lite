@@ -1,8 +1,8 @@
-diff --git a/src/node/handler/SocketIORouter.js b/src/node/handler/SocketIORouter.js
-index 0a7361f..baef25d 100644
---- a/src/node/handler/SocketIORouter.js
-+++ b/src/node/handler/SocketIORouter.js
-@@ -61,8 +61,9 @@ exports.setSocketIO = function(_socket) {
+Index: etherpad-lite/src/node/handler/SocketIORouter.js
+===================================================================
+--- etherpad-lite.orig/src/node/handler/SocketIORouter.js
++++ etherpad-lite/src/node/handler/SocketIORouter.js
+@@ -61,8 +61,9 @@ exports.setSocketIO = function(_socket)
      // Broken: See http://stackoverflow.com/questions/4647348/send-message-to-specific-client-with-socket-io-and-node-js
      // Fixed by having a persistant object, ideally this would actually be in the database layer
      // TODO move to database layer
@@ -14,11 +14,11 @@ index 0a7361f..baef25d 100644
      }
      else{
        remoteAddress[client.id] = client.handshake.address;
-diff --git a/src/node/utils/Settings.js b/src/node/utils/Settings.js
-index 2c2f90b..a6cbb6d 100644
---- a/src/node/utils/Settings.js
-+++ b/src/node/utils/Settings.js
-@@ -192,6 +192,11 @@ exports.sessionKey = false;
+Index: etherpad-lite/src/node/utils/Settings.js
+===================================================================
+--- etherpad-lite.orig/src/node/utils/Settings.js
++++ etherpad-lite/src/node/utils/Settings.js
+@@ -235,6 +235,11 @@ exports.sessionKey = false;
  */
  exports.trustProxy = false;
  
