@@ -5,6 +5,7 @@ Description=Etherpad-lite daemon
 User=etherpad-lite
 Group=etherpad-lite
 WorkingDirectory=/usr/share/etherpad-lite
+Environment=NODE_ENV=production
 ExecStart=/usr/bin/node /usr/share/etherpad-lite/node_modules/ep_etherpad-lite/node/server.js
 Restart=always
 
