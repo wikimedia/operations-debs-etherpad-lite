@@ -18,7 +18,7 @@ Index: etherpad-lite/src/node/utils/Settings.js
 ===================================================================
 --- etherpad-lite.orig/src/node/utils/Settings.js
 +++ etherpad-lite/src/node/utils/Settings.js
-@@ -235,6 +235,11 @@ exports.sessionKey = false;
+@@ -245,6 +245,11 @@ exports.sessionKey = false;
  */
  exports.trustProxy = false;
  

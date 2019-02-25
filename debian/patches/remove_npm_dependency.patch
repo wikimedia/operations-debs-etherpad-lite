@@ -1,6 +1,8 @@
---- a/bin/run.sh
-+++ b/bin/run.sh
-@@ -29,7 +29,7 @@
+Index: etherpad-lite/bin/run.sh
+===================================================================
+--- etherpad-lite.orig/bin/run.sh
++++ etherpad-lite/bin/run.sh
+@@ -29,7 +29,7 @@ if [ "$(id -u)" -eq 0 ] && [ $ignoreRoot
  fi
  
  #Prepare the environment
@@ -9,4 +11,3 @@
  
  #Move to the node folder and start
  echo "Started Etherpad..."
-

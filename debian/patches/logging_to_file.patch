@@ -2,16 +2,16 @@ Index: etherpad-lite/settings.json.template
 ===================================================================
 --- etherpad-lite.orig/settings.json.template
 +++ etherpad-lite/settings.json.template
-@@ -69,7 +69,7 @@
-    * credentials.json.
-    */
+@@ -80,7 +80,7 @@
+ 
+   "dbType" : "dirty",
    "dbSettings" : {
 -                   "filename" : "var/dirty.db"
 +                   "filename" : "/var/lib/etherpad-lite/dirty.db"
                   },
  
    /*
-@@ -372,10 +372,9 @@
+@@ -383,10 +383,9 @@
     */
    "logconfig" :
      { "appenders": [
