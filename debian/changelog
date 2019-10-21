@@ -1,4 +1,10 @@
-etherpad-lite (1.7.5-1) UNRELEASED; urgency=medium
+etherpad-lite (1.7.5-2) jessie; urgency=high
+
+  * Patch for CVE-2019-18209
+
+ -- Alexandros Kosiaris <akosiaris@wikimedia.org>  Mon, 21 Oct 2019 10:24:24 +0000
+
+etherpad-lite (1.7.5-1) jessie; urgency=medium
 
   * Bump to 1.7.5
   * Refresh patches
