@@ -1,3 +1,11 @@
+etherpad-lite (1.7.5-3) buster; urgency=medium
+
+  * Rebuild for buster
+  * Drop nodejs-legacy requirement
+  * Rely now on nodejs version that exist on buster and later
+
+ -- Alexandros Kosiaris <akosiaris@wikimedia.org>  Wed, 22 Jan 2020 10:43:54 +0000
+
 etherpad-lite (1.7.5-2) jessie; urgency=high
 
   * Patch for CVE-2019-18209

@@ -1,4 +1,3 @@
-upgrade_npm
 remove_npm_dependency.patch
 logging_to_file.patch
 log_x_client_ip.patch

@@ -2,11 +2,11 @@ Source: etherpad-lite
 Section: net
 Priority: extra
 Maintainer: Alexandros Kosiaris <akosiaris@wikimedia.org>
-Build-Depends: debhelper (>= 9), nodejs (>= 0.10), nodejs-legacy, npm (>= 1), curl, libpq-dev
+Build-Depends: debhelper (>= 9), nodejs (>= 10), npm (>= 5.8), libpq-dev
 Standards-Version: 1.0
 
 Package: etherpad-lite
-Depends: nodejs (>= 0.10), nodejs-legacy, curl
+Depends: nodejs (>= 10)
 Architecture: all
 Description: A web-based word processor that allows people to work
  together in real-time.
