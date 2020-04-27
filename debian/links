@@ -1,5 +1,0 @@
-etc/etherpad-lite/settings.json usr/share/etherpad-lite/settings.json
-var/lib/etherpad-lite/APIKEY.txt usr/share/etherpad-lite/APIKEY.txt
-var/lib/etherpad-lite/SESSIONKEY.txt usr/share/etherpad-lite/SESSIONKEY.txt
-var/lib/etherpad-lite/ usr/share/etherpad-lite/var
-usr/share/etherpad-lite/src usr/share/etherpad-lite/node_modules/ep_etherpad-lite
