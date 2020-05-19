@@ -1,8 +1,6 @@
-Index: etherpad-lite/src/node/handler/SocketIORouter.js
-===================================================================
---- etherpad-lite.orig/src/node/handler/SocketIORouter.js
-+++ etherpad-lite/src/node/handler/SocketIORouter.js
-@@ -61,6 +61,8 @@ exports.setSocketIO = function(_socket)
+--- a/src/node/handler/SocketIORouter.js
++++ b/src/node/handler/SocketIORouter.js
+@@ -61,6 +61,8 @@
      // TODO move to database layer
      if (settings.trustProxy && client.handshake.headers['x-forwarded-for'] !== undefined) {
        remoteAddress[client.id] = client.handshake.headers['x-forwarded-for'];
@@ -11,11 +9,9 @@ Index: etherpad-lite/src/node/handler/SocketIORouter.js
      } else {
        remoteAddress[client.id] = client.handshake.address;
      }
-Index: etherpad-lite/src/node/utils/Settings.js
-===================================================================
---- etherpad-lite.orig/src/node/utils/Settings.js
-+++ etherpad-lite/src/node/utils/Settings.js
-@@ -246,6 +246,11 @@ exports.sessionKey = false;
+--- a/src/node/utils/Settings.js
++++ b/src/node/utils/Settings.js
+@@ -269,6 +269,11 @@
  exports.trustProxy = false;
  
  /*

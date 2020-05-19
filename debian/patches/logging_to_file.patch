@@ -1,8 +1,6 @@
-Index: etherpad-lite/settings.json.template
-===================================================================
---- etherpad-lite.orig/settings.json.template
-+++ etherpad-lite/settings.json.template
-@@ -131,7 +131,7 @@
+--- a/settings.json.template
++++ b/settings.json.template
+@@ -171,7 +171,7 @@
  
    "dbType": "dirty",
    "dbSettings": {
@@ -11,7 +9,7 @@ Index: etherpad-lite/settings.json.template
    },
  
    /*
-@@ -449,10 +449,9 @@
+@@ -514,10 +514,9 @@
     */
    "logconfig" :
      { "appenders": [
